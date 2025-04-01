@@ -1,0 +1,133 @@
+.connection-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 50px auto;
+  padding: 20px;
+  max-width: 600px;
+  background-color: #f9f9f9;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.existing-client {
+  text-align: center;
+  width: 40%;
+}
+
+h2 {
+  font-size: 18px;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+form input {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 14px;
+}
+
+
+/* mot de passe affichage */
+.password-container {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.password-container input {
+  flex: 1;
+}
+
+.show-password {
+  background: none;
+  border: none;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.forgot-password {
+  font-size: 12px;
+  color: #007bff;
+  text-decoration: none;
+}
+
+.forgot-password:hover {
+  text-decoration: underline;
+}
+
+.login-button {
+  padding: 10px 20px;
+  border: none;
+  background-color: #000;
+  color: #fff;
+  font-size: 14px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.login-button:hover {
+  background-color: #333;
+}
+
+.breadcrumb {
+  margin: 10px 20px;
+  font-size: 14px;
+}
+
+.breadcrumb-link {
+  color: #007bff;
+  text-decoration: none;
+}
+
+.breadcrumb-link:hover {
+  text-decoration: underline;
+}
+
+/* Conteneur principal */
+.connection-container {
+  display: flex;
+  justify-content: space-between; /* Ajouter de l'espace entre les sections */
+  max-width: 1000px; /* Augmenter la largeur pour mieux espacer */
+
+}
+
+/* Nouveau Client Section */
+.new-client {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end; /* Aligner à droite */
+  justify-content: center;
+  padding: 10px 20px;
+}
+
+.new-client h2 {
+  font-size: 16px;
+  margin-bottom: 10px;
+  color: #333;
+  text-align: right; /* Aligner le texte à droite */
+}
+
+.register-button {
+  padding: 10px 15px;
+  border: 1px solid #ccc;
+  background-color: #fff;
+  color: #007bff;
+  font-size: 14px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.register-button:hover {
+  background-color: #007bff;
+  color: #fff;
+  border-color: #0056b3;
+}
